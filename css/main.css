@@ -1,0 +1,146 @@
+/**
+ * Ideographic Description Tree Layouting and IDS Parser
+ * @author: kMUTOU<ks.mutou@hotmail.co.jp>
+ * date: 2018-02-06
+ * @version: 0.1.0
+ * @license: MIT License 
+*/
+
+[draggable] {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+.idc_palette div.idc {
+	width: 40px;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	margin: 0 1px 1px 0;
+	box-shadow: inset 0 0 1px #000;
+		-webkit-box-shadow: inset 0 0 1px #000;
+		-ms-box-shaadow: inset 0 0 1px #000;
+	background-color: #700;
+	color: #CCC;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 999;
+}
+
+button {
+	z-index: 999;
+}
+
+.over {
+	color: #CCC;
+	background-color: #400;
+}
+
+div.ids {
+	width: 100px;
+	background-color: #430;
+}
+
+h2 {
+	text-align: left;
+	font-size: 1.50em;
+}
+
+div#body {
+	display: table;
+	position: right;
+}
+
+div.iddom {
+	width: 400px;
+	height: 400px;
+	background-color: lavenderblush;
+	text-align: center;
+	opacity: 0.50;
+	stroke: #FFF;
+}
+
+.u2ff0 {
+	display: grid;
+	grid-gap: 1px;
+	width: inherit;
+	height: inherit;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: 100%;
+}
+
+.u2ff1 {
+	display: grid;
+	grid-gap: 1px;
+	width: inherit;
+	height: inherit;
+	grid-template-rows: repeat(2, 1fr);
+	grid-auto-columns: 100%;
+}
+
+.u2ff2 {
+	display: grid;
+	grid-gap: 1px;
+	width: inherit;
+	height: inherit;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 100%;
+}
+
+.u2ff3 {
+	display: grid;
+	grid-gap: 5px;
+	width: inherit;
+	height: inherit;
+	grid-template-rows: repeat(3, 1fr);
+	grid-auto-columns: 100%;
+}
+
+.u2ff4, .u2ff5, .u2ff6, .u2ff7, .u2ffb {
+	display: grid;
+	grid-gap: 1px;
+	width: inherit;
+	height: inherit;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.u2ff8, .u2ff9, .u2ffa {
+	display: grid;
+	grid-gap: 1px;
+	width: inherit;
+	height: inherit;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.idc > .dc0 {
+	border: solid 2px bisque;
+	background: bisque;
+}
+
+.idc > .dc1 {
+	border: solid 2px lightgreen;
+	background: lightgreen;
+}
+
+.idc > .dc2 {
+	border: solid 2px lightsalmon;
+	background: lightsalmon;
+}
+
+#ido_data {
+	font-size: 2.5em;
+	font-family: 'IPAmj明朝';
+}
+
+#results > ul {
+	font-size: 2.5em;
+	font-family: 'IPAmj明朝';
+}
